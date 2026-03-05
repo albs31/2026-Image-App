@@ -100,7 +100,7 @@ upsidedownImage.explore();
 
     // Image #5 Using the original image and pixels, rotate image 90
     Picture rotateImg = new Picture(origPixels[0].length, origPixels.length);
-Pixel[][] rotatePixels = rotateImg.getPixels2D();
+    Pixel[][] rotatePixels = rotateImg.getPixels2D();
 
 for (int row = 0; row < origPixels.length; row++)
 {
@@ -118,7 +118,7 @@ rotateImg.explore();
 
     // Image #6 Using the original image and pixels, rotate image -90
     Picture rotateImg2 = new Picture(origPixels[0].length, origPixels.length);
-Pixel[][] rotatePixels2 = rotateImg2.getPixels2D();
+    Pixel[][] rotatePixels2 = rotateImg2.getPixels2D();
 
 for (int row = 0; row < origPixels.length; row++)
 {
@@ -189,3 +189,4 @@ largePicture.explore();
 
   }
 }
+
